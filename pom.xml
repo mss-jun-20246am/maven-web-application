@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://52.66.133.19:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.0.100:9000/</sonar.host.url>
 		<sonar.login>squ_186e7af8cc4188b158b0ba2d56aadb0343be601f</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://43.205.118.81:9980/vanaja89/repository/cbank-release/</url>
+	      <url>http://172.31.43.28:9980/vanaja89/repository/cbank-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://43.205.118.81:9980/vanaja89/repository/cbank-snapshot/</url>
+	      <url>http://172.31.43.28:9980/vanaja89/repository/cbank-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
